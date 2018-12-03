@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<entry
+	xml:base="https://services.odata.org/V3/(S(bk1wf3hvfh3gsgl2ixaid44t))/OData/OData.svc/"
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices"
+	xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:gml="http://www.opengis.net/gml">
+	<id>https://services.odata.org/V3/(S(bk1wf3hvfh3gsgl2ixaid44t))/OData/OData.svc/Persons(1)</id>
+	<category term="ODataDemo.Person"
+		scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+	<link rel="edit" title="Person" href="Persons(1)" />
+	<link
+		rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/PersonDetail"
+		type="application/atom+xml;type=entry" title="PersonDetail"
+		href="Persons(1)/PersonDetail" />
+	<title />
+	<updated>2018-12-03T16:17:29Z</updated>
+	<author>
+		<name />
+	</author>
+	<link
+		rel="http://schemas.microsoft.com/ado/2007/08/dataservices/relatedlinks/PersonDetail"
+		type="application/xml" title="PersonDetail"
+		href="Persons(1)/$links/PersonDetail" />
+	<content type="application/xml">
+		<m:properties>
+			<d:ID m:type="Edm.Int32">1</d:ID>
+			<d:Name>Jose Pavarottidddddddddddddddd</d:Name>
+		</m:properties>
+	</content>
+</entry>
